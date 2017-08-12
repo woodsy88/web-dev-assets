@@ -1,0 +1,50 @@
+/*================MINI BLOG CONTAINTER START=====================*/
+
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.flex-item-box {
+  width: 260px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  transition: all 0.2s linear;
+}
+
+.link {
+  text-decoration: none !Important;
+}
+
+.flex-item-box:hover {
+   box-shadow: 0 4px 5px rgba(0,0,0,0.7);
+}
+
+.flex-item-box:hover .blogheader {
+  color: #3F5263;
+}
+
+.cm-ts-banner-blog {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+
+}
+
+/* ========== MINI BLOG END ======================== */
+
+
+
+
+
+
+
+

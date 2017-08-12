@@ -1,0 +1,142 @@
+/*BANNERS*/
+
+.banner-top {
+    background: #3f5263;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/*LAYOUT*/
+
+.body-center {
+  margin:0 auto;
+  max-width: 800px;
+}
+
+
+.r-p-t {
+  padding-top: 50px;
+}
+
+.i-p-t {
+  padding-top: 10px;
+}
+
+.p-p-t {
+  padding-top: 15px;
+}
+
+
+.tips-box {
+  display: flex;
+  
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.img-1 {
+  width: 600px;
+}
+
+/*FONT-STYLES*/
+
+
+.banner-title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+
+.sub-header {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+
+
+.section-header-one {
+    font-family: 'Montserrat', sans-serif;
+    color: #3f5263;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.tips-header {
+   font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+}
+
+.header-two {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.list-header {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+
+
+.body-font {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+}
+
+
+p {
+  color: #676767;
+}
+
+/* ICON STYLE */
+
+.fa-lightbulb-o {
+  padding-right: 10px;
+  font-size: 30px;
+  color: #e3bd50;
+  
+}

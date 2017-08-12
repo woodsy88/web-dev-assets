@@ -1,0 +1,168 @@
+/*START FLEX SCREEN RIGHT*/
+
+.topcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textItem {
+   text-align: center;
+    margin-right: 10px;
+    
+}
+
+.imageflex {
+    max-width: 600px;
+}
+
+@media (max-width: 1000px) {
+    
+    
+    .topcontainer {
+        flex-direction: column-reverse;
+    }
+    
+    .textItem {
+        margin-top: 20px;
+    }
+    
+    .imageflex {
+    max-width: 100%;
+}
+
+    
+}
+
+/*END FLEX SCREEN RIGHT*/
+
+
+/*START FLEX SCREEN LEFT*/
+
+.topcontainerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textItemLeft {
+   text-align: center;
+    margin-left: 10px;
+    
+}
+
+
+
+@media (max-width: 1000px) {
+    
+    
+    .topcontainerLeft {
+        flex-direction: column;
+    }
+    
+    .textItem {
+        margin-top: 20px;
+    }
+    
+    .imageflex {
+    max-width: 100%;
+}
+
+    
+}
+
+/*END FLEX SCREEN LEFT*/
+
+
+/*UNIVERSAL STYLES*/ 
+
+
+.textContainer {
+    max-width: 500px;
+}
+
+.imageflex {
+    max-width: 400px !important;
+}
+
+
+/*==============TOP CTA TEXT SECTION=================*/
+
+
+.rowBanner {
+    height: 500px;
+      background: url('../6.png') no-repeat center;
+  background-size: cover;
+    
+}
+
+
+.topcontainerbutton {
+    display: flex;
+    justify-content: center;
+   height: 100%;
+    align-items: flex-end;
+}
+
+
+.textItemButton {
+    display: flex;
+    flex-direction: column;
+   
+   text-align: center;
+
+    
+}
+
+.Top-CTA-Header {
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+
+/*==========CTA TOP BUTTTON================*/
+
+.buttons-container {
+    display: flex;
+
+    margin: 0 auto;
+    
+}
+
+.buttonItem {
+    margin-right: 15px
+}
+
+.cta-top {
+   font-family: 'Montserrat', sans-serif;
+    display: block;
+  width: 170px;
+  
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+border: 2px solid #3F5263;
+ 
+  color: #3F5263;
+  padding: 10px;
+
+  transition: all 0.2s linear;
+    
+    background-color: #fff;
+}
+
+.cta-top:hover {
+   border: 2px solid #3299bb;
+  border-radius: 3px;
+    background-color: #3F5263;
+  color: #fff;
+}
+
+.arrow {
+    max-width: 70px;
+    margin-top: 40px
+    
+}

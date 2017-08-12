@@ -1,0 +1,33 @@
+/*JUMBOTRON*/
+
+
+.red {
+  background-color: red !Important;
+
+}
+
+.blue {
+  background: blue !Important;
+}
+
+
+.tab-container {
+  display: flex;
+  color: indianred;
+  
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+}
+
+
+.tab1 {
+  flex-basis: 1;
+}
+
+
+.tab2 {
+  flex-basis: 1;
+}

@@ -1,0 +1,165 @@
+/*================= BEGIN TOMBSTONES ===============================*/
+
+/* BEGIN TOMBSTONES */
+
+/* row+column */
+.cm-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cm-row > .col {
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.cm-row > .col.col-2 {
+  flex-basis: 50%;
+}
+
+.cm-row > .col.col-3 {
+  flex-basis: 33%;
+}
+
+.cm-row > .col.col-4 {
+  flex-basis: 25%;
+}
+
+@media (max-width: 1000px) {
+  .cm-row {
+    flex-wrap: wrap;
+  }
+
+  .cm-row > .col.col-2, .cm-row > .col.col-3, .cm-row > .col.col-4 {
+    flex-basis: 100%;
+  }
+}
+
+/* common */
+.cm-single-line {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* tombstones */
+.cm-ts-spacer, .cm-ts {
+  margin: 20px auto;
+  max-width: 450px;
+}
+
+.cm-ts {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+
+  text-align: center;
+  line-height: 28px;
+}
+
+.cm-ts-banner {
+  height: 120px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cm-ts-content {
+  padding: 10px 15px;
+}
+
+.cm-ts-footer {
+  padding: 20px;
+}
+
+.cm-ts-cta {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+
+  border: 2px solid #3299bb;
+  border-radius: 3px;
+  color: #3299bb;
+  padding: 10px;
+
+  transition: all 0.2s linear;
+}
+
+.cm-ts-cta:hover {
+  background-color: #3299bb;
+  color: #fff;
+}
+
+.cm-ts-logo {
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+
+  border: 5px solid white;
+  border-radius: 4px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cm-ts-name {
+  font-weight: bold;
+}
+
+.cm-ts-location {
+  margin-bottom: 10px;
+}
+
+.cm-ts-location .cm-location-icon {
+  margin-right: 5px;
+  color: #888;
+}
+
+.cm-ts-syndicate-container {
+  padding: 10px;
+  height: 70px;
+}
+
+.cm-ts-lead-header {
+  font-weight: bold;
+}
+
+.cm-ts-lead-name {
+}
+
+.cm-ts-tagline {
+  font-size: 90%;
+  line-height: 24px;
+  height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+/* END TOMBSTONES */
+
+
+/*==========END OF UPDATED TOMBSTONE STYLES===============*/
+
+
+
+
+
+
+
+

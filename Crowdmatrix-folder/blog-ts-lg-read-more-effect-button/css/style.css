@@ -1,0 +1,142 @@
+/*====================BLOG CONTAINTER START==============================*/
+
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+.flex-item-box {
+  display:flex;
+  width: 400px;
+  height: 450px;
+  background: #fff;
+  margin: 20px;
+   
+
+   box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  
+  transition: all 0.2s linear;
+}
+
+
+.read-more {
+  height: 46px;
+  transition: all 0.2s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.read-more-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 400;
+    
+}
+
+.read-more-box {
+  align-items: baseline;
+}
+
+.arrow {
+  padding-left: 8px;
+}
+
+
+.link {
+  text-decoration: none !Important;
+}
+
+.flex-text-box-header {
+  text-align: center;
+    display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.flex-text-box-body {
+  text-align: center;
+    display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.flex-item-box:hover {
+   box-shadow: 0 4px 5px rgba(0,0,0,0.7);
+}
+
+.flex-item-box:hover .blogheader {
+  color: #3F5263;
+}
+
+
+.flex-item-box:hover .read-more {
+  background: #3F5263;
+}
+
+
+.flex-text-box {
+  text-align: center;
+}
+
+.blogheader {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #3299BB;
+    font-weight: 400;
+    padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.2 !Important;
+  padding-top: 20px !important;
+    
+}
+
+
+.blog-t {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #676767;
+    font-weight: 300;
+   padding-left: 10px;
+  padding-right: 10px;
+   padding-top: 20px !important;
+   
+    line-height: 1.4 !Important;
+}
+
+
+.bannerText {
+  font-family: 'open sans', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cm-ts-banner-blog {
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+
+}
+
+
+
+/*BLOG CONTAINTER END */
+
+
+
+
+
+
+
+

@@ -1,0 +1,188 @@
+/* line 19, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone {
+  display: block;
+  border: 1px solid #3f5263;
+  background-color: white;
+  text-align: center;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 2px;
+  -webkit-transition: -webkit-transform 0.1s, box-shadow 0.1s;
+  -moz-transition: -moz-transform 0.1s, box-shadow 0.1s;
+  -o-transition: -o-transform 0.1s, box-shadow 0.1s;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+/* line 31, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone * {
+  margin: 0;
+}
+/* line 33, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 4px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 4px 4px;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 4px 4px;
+  -webkit-transform: translate3d(-2px, -2px, 0);
+  -moz-transform: translate3d(-2px, -2px, 0);
+  -ms-transform: translate3d(-2px, -2px, 0);
+  -o-transform: translate3d(-2px, -2px, 0);
+  transform: translate3d(-2px, -2px, 0);
+}
+/* line 38, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone:hover, .cm-tombstone:active {
+  text-decoration: none;
+}
+/* line 42, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .header {
+  color: white;
+  background-color: #4a4a4a;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/* line 49, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .header::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 59, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .header > * {
+  position: relative;
+}
+/* line 63, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .header .asset-class {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: rgba(50, 153, 187, 0.8);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  padding: 3px;
+}
+/* line 71, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .header .logo {
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  margin: 15px;
+}
+/* line 83, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .header .location {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3px 5px;
+}
+/* line 90, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .header .location .fa {
+  margin-right: 3px;
+}
+/* line 96, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content {
+  padding: 15px;
+}
+/* line 99, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #3299bb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+/* line 107, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .subtitle {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 600;
+  color: #3f5263;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+/* line 115, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .description {
+  line-height: 18px;
+  height: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-bottom: 10px;
+  color: #9b9b9b;
+}
+/* line 121, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .info-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* line 126, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .info-boxes .info-box {
+  margin-bottom: 10px;
+  min-width: 0;
+}
+/* line 130, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .info-boxes .info-box:not(:last-child) {
+  margin-right: 10px;
+}
+/* line 134, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .info-boxes .info-box .title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+/* line 141, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .info-boxes .info-box .value {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #3299bb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+/* line 151, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .cm-tombstone-progress-bar-container {
+  border: 1px solid #cccccc;
+  height: 35px;
+}
+/* line 155, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .cm-tombstone-progress-bar-container .progress-bar {
+  position: relative;
+  float: left;
+  width: 0%;
+  height: 100%;
+}
+/* line 161, /Users/dan/workspace/extreme/crowdmatrix/app/assets/stylesheets/tombstones.css.scss */
+.cm-tombstone .content .cm-tombstone-progress-bar-container .progress-bar::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 1px solid #3299bb;
+  background-color: #3299bb;
+}

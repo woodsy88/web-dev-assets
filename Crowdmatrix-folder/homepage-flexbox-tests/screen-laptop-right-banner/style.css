@@ -1,0 +1,308 @@
+body {
+    background: #3F5263;
+}
+
+
+/*==================START FLEX SCREEN BANNER RIGHT ROW================*/
+
+/*UNIVERSAL STYLES*/
+
+
+.topcontainerRightBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    
+}
+
+
+.textItemRightBanner {
+   text-align: center;
+   
+    
+}
+
+
+.textContainerRightBanner {
+   flex-basis: 35%;
+}
+
+
+.imageContainterRightBanner {
+    flex-basis: 60%;
+}
+
+.imageflexRightBanner {
+   max-width: 100%;
+}
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 1060px) and (min-width: 1001px) {
+   
+    
+    .textContainerRightBanner {
+   flex-basis: 90%;
+        margin-bottom: 20px
+}
+
+
+.imageContainterRightBanner {
+    flex-basis: 100%;
+    text-align: center;
+}
+    
+    .imageflexRightBanner {
+   max-width: 100%;
+}
+    
+}
+
+
+
+
+@media (max-width: 1000px) {
+    
+    
+    .topcontainerRightBanner {
+        flex-direction: column;
+    }
+    
+    .textItemRightBanner {
+       padding-top: 20px;
+        padding-bottom: 10px
+    }
+    
+    .imageflexRightBanner {
+    max-width: 100%;     
+        
+}
+    
+    .imageContainterRightBanner {
+        text-align: center;
+    }
+    
+    .textContainerRightBanner {
+        margin-bottom: 30px;
+    }
+
+    
+}
+
+
+
+@media (max-width: 500px) {
+    
+    .cta-top-bold {
+        max-width: 140px
+    }
+    
+     .cta-top {
+        max-width: 140px
+    }
+      
+
+
+
+.imageContainterRightBanner {
+    flex-basis: 100%;
+    text-align: center;
+}
+    
+    .imageflexRightBanner {
+   max-width: 100%;
+}
+    
+    .Top-CTA-Header {
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+    
+}
+
+
+
+
+/*LOGO STYLES*/
+
+
+.flex-logo-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image {
+    max-width: 40px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+/*============== BANNER TEXT SECTION=================*/
+
+
+
+
+.t-description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 20px !important;
+
+}
+
+.crowdmatrixlogoText {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px !important;
+    margin-bottom: 40px;
+   
+}
+
+
+.topSloganSlim {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.Top-CTA-Header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 25px !Important;
+   
+    color: #E3BD50
+}
+
+.thincrowdmatrix {
+    font-weight: 300;
+}
+
+.textContainerBanner {
+    max-width: 500px;
+}
+
+
+/*==============TOP BANNER CTA BUTTON =================*/
+
+
+
+
+.buttons-containerBanner {
+    display: flex;
+justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+
+.buttonItem {
+    margin-right: 15px;
+    text-align: center;
+}
+
+
+/*==TOP BANNER CTA BUTTON STYLES =*/
+
+
+.cta-top {
+   font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    display: block;
+  width: 170px;
+  
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+border: 2px solid #fff;
+ 
+  color: #fff;
+  padding: 10px;
+
+  transition: all 0.2s linear;
+    
+    background-color: #3F5263;
+}
+
+
+
+.cta-top:hover {
+   border: 2px solid #E3BD50;
+  border-radius: 3px;
+    background-color: #E3BD50;
+  color: #3F5263;
+}
+
+
+.cta-top-bold {
+   font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    display: block;
+  width: 170px;
+  
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+border: 2px solid #3299BB;
+ 
+  color: #fff;
+  padding: 10px;
+
+  transition: all 0.2s linear;
+    
+    background-color: #3299BB;
+}
+
+
+
+.cta-top-bold:hover {
+   border: 2px solid #E3BD50;
+  border-radius: 3px;
+    background-color: #E3BD50;
+  color: #3F5263;
+}
+
+.cta-bottom-bold {
+   font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    display: block;
+  width: 170px;
+  
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+border: 2px solid #3F5263;
+ 
+  color: #fff;
+  padding: 10px;
+
+  transition: all 0.2s linear;
+    
+    background-color: #3F5263;
+}
+
+
+
+.cta-bottom-bold:hover {
+   border: 2px solid #3299BB;
+  border-radius: 3px;
+    background-color: #3299BB;
+  color: #fff;
+}
+
+
+
+/*==============*******TOP BANNER END**** =================*/
+
+
+
+
+
